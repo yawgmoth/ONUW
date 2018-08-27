@@ -68,7 +68,7 @@ The game setup itself can be manipulated by the following command line options:
    - --a-ai, --b-ai, --c-ai, --d-ai, --e-ai are used to set the agent types for the players. Valid values are random, capricious, fanatical and balanced
 
 The main experiments we ran used a constant setup and agent assignment and then varied the behavior of these agents by setting other options. For each of the following command line options it is possible to pass
-either a constant value, a comma separated list, or (for numeric values) an expression of the form start:end:step, which is used to generate a list of values. Each combination of argument assignments taken from these
+either a constant value, a comma separated list, or (for numeric values) an expression of the form ```start:end:step```, which is used to generate a list of values. Each combination of argument assignments taken from these
 lists is one variation, which is then run according to the other settings, and a separate result is reported. 
    - --commitment is used to set the level of commitment of *all* balanced players
    - --certainty is used to set how suspicious players should be of the world before adopting goals
