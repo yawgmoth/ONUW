@@ -1,0 +1,8 @@
+Usage:
+      rungameA [-s <suspicions>] [-a <alpha>] [-n <iterations>] [-c <commitment>] <input>
+      
+Options:
+    -s <suspicions>, --suspicions <suspicions>  How many levels of suspicions the planner should use [default: 1]
+    -a <alpha>, --alpha <alpha>                 Value of alpha (multiplicative factor for plan length) [default: 1]
+    -n <iterations>, --iterations <iterations>  Number of iterations to plan for before giving up [default: 50]
+    -c <commitment>, --commitment <commitment>  How committed a balanced agent should be [default: 0.6]
