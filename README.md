@@ -89,6 +89,8 @@ In addition to being able to manually set role assignments, agent types and othe
 These presets are meant to correspond to the experiments reported in our paper. Any of the command line options described above can be used to override any of the settings, though, making it possible
 to run other experiments based on ours.
 
+A set of results from our own experiments can be found in [pdf form in the repository](papers/resulttables.pdf)
+
 ### Online version
 
 To play One Night Ultimate Werewolf in a web browser, run
