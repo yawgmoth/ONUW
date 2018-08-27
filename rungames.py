@@ -3,9 +3,7 @@ import os
 import sys
 import time
 import random
-import numpy as np
 import threading
-import matplotlib.pyplot as plt
 import argparse
 import math
 

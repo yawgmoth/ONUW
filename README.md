@@ -93,6 +93,6 @@ to run other experiments based on ours.
 
 To play One Night Ultimate Werewolf in a web browser, run
 ```python httpserver.py onuwweb.cfg```
-and then open [127.0.0.1:31337](http://127.0.0.1:31337) in a web browser. We have also set up a version of the game on our server, that can be accessed at
-[http://go.ncsu.edu/onuwweb](http://go.ncsu.edu/onuwweb)
+and then open [127.0.0.1:31337](http://127.0.0.1:31337) in a web browser. Alternatively, you can also use ```rungameA.exe onuwweb.cfg``` to play on the command line. Note
+that this will show all output from the system, which will reveal whether agents are lying or not, which is useful for testing.
 
