@@ -11,16 +11,20 @@ Requirements and Installation
 * GHC >= 7.6.3
 
 * Haskell Packages:
+   + array
    + DiffArray
    + MonadRandom
+   + random
+   + transformers
    + Parsec
-   + parsecnumbers
+   + parsec-numbers
    + docopt
    + mtl
    + text
    + split
+   + parallel
 
-Compile with ```make``` or ```stack build```. The latter should install the required packages automatically.
+We recommend using [Haskell Platform](https://www.haskell.org/platform/) and installing the required packages with cabal (e.g. ```cabal install mtl```). Compile with ```ghc --make -rtsopts rungameA.hs```. We also provide a Makefile that runs exactly that command when you run ```make```.
 
 Usage
 ------------
@@ -97,4 +101,9 @@ To play One Night Ultimate Werewolf in a web browser, run
 ```python httpserver.py onuwweb.cfg```
 and then open [127.0.0.1:31337](http://127.0.0.1:31337) in a web browser. Alternatively, you can also use ```rungameA.exe onuwweb.cfg``` to play on the command line. Note
 that this will show all output from the system, which will reveal whether agents are lying or not, which is useful for testing.
+
+Acknowledgements
+----------------
+
+This material is based upon work supported in whole or in part with funding from the Laboratory for Analytic Sciences (LAS). Any opinions, findings, conclusions, or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the LAS and/or any agency or entity of the United States Government.
 
