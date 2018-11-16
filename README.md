@@ -24,7 +24,7 @@ Requirements and Installation
    + split
    + parallel
 
-We recommend using [Haskell Platform](https://www.haskell.org/platform/) and installing the required packages with cabal (e.g. ```cabal install mtl```). Compile with ```ghc --make -rtsopts rungameA.hs```. We also provide a Makefile that runs exactly that command when you run ```make```.
+We recommend using [Haskell Platform](https://www.haskell.org/platform/) and installing the required packages with cabal (e.g. ```cabal install mtl```). Compile with ```ghc --make -rtsopts rungameA.hs```. We also provide a Makefile that runs exactly that command when you run ```make```. Tested on Windows only. For Unix-like operating systems, you will have to convert usage.txt to Unix line-endings (e.g. with dos2unix).
 
 Usage
 ------------
